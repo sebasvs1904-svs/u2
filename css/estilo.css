@@ -1,0 +1,45 @@
+body {
+  margin: 10px 10%;
+  background-color: rgb(193, 206, 137);
+  font-family: sans-serif;
+  text-align: justify;
+}
+img{
+  border-radius:90px;
+}
+
+
+
+h1 {
+  font-size: 300%;
+  letter-spacing: 10px;
+  text-align: center;
+  color: rgb(42, 11, 243) ;
+}
+
+h2 {
+  clear: both;
+  padding: 0.2rem 0.5rem;
+  background-color: rgb(104, 102, 2);
+  color: rgb(255, 250, 250);
+  font-size: 200%;
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-indent: 2rem;
+}
+
+img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+strong {
+  background-color: white;
+}
+
+em {
+  color: rgb(34, 37, 204);
+}

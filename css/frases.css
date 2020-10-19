@@ -1,0 +1,56 @@
+/*La regla CSS @font-face permite definir una tipografía e importarla para 
+su uso en una página web.
+
+Ejemplo:
+@font-face{
+    font-family:<nombre_de_la_fuente>;
+    src: url(<ruta_url>) [format()][,url(<ruta_url>) [format()]]*;
+    [font-weight:<weight>];
+    [font-style:<estilo>];
+    [font-stretch]:<stretch>];
+    [unicode-range]:<range>];
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+  
+  body {
+    background-color: hsl(167, 69%, 45%);
+  }
+  
+  h1 {
+    /*font-family: "Ribeye Marrow", cursive;*/
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  p.intro {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Raleway', sans-serif;
+    line-height: 200%;
+    text-align: justify;
+  }
+  
+  p.latin {
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+  }
+  
+  p.espanol {
+    margin: 0 0 3rem;
+    color: white;
+    font-family: 'Chilanka', cursive;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-align: right;
+  }
+  
+  cite {
+    text-decoration: underline;
+  }

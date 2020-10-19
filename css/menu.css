@@ -1,0 +1,80 @@
+body {margin: 1.em;  
+padding: 2em;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+ul.hol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 72, 100);
+}
+
+ul.hol li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 3px;
+    
+}
+ul.hol li a:hover:not(.active) {background-color: rgb(199, 186, 3);
+color: black;}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+display: block;
+}
+h1{
+    color: white;
+    margin: 1px;
+    text-align: center;
+}
+#seccion {
+    float: left;
+    width: 860px;
+    margin: 20px;
+    }
+    body{
+        background-color: teal;
+    }
+    
+    #columna {
+    float: left;
+    width: 350px;
+    text-align: center;
+    margin: 2px 00px;
+    padding: 20px;
+    background: #2c6497;
+    }
+    h2{
+        color: white;
+    }
+    

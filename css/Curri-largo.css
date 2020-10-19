@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+body {
+    background-color: hsl(276, 100%, 26%);
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+img.jpg{
+    height: 90px;
+    border-radius: 50%;
+}
+h1 {
+    color: #fcfcfc;
+    font-family: 'Anton', sans-serif;
+    font-size: 290%;
+    text-align: center;
+    text-transform: uppercase;
+}
+img.svg{
+    height: 90px;   
+}
+a.ama{
+    text-decoration: none;
+    color: white;
+    font-size: 4em;
+
+}
+
+
+h2 {
+    background-color: hsl(175, 100%, 29%);
+    color: hsl(61, 64%, 63%);
+    font-size: 200%;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+}
+p.estilo-2 {
+    border: hsla(189, 100%, 50%, 0.822) 15px solid;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    margin-left: 5%;
+    margin-right: 45%;
+    padding: 20px;
+    background-color: hsla(197, 72%, 42%, 0.747);
+    color: white;
+  }
+
+h3 {
+    background-color:hsl(170, 98%, 41%);
+    color: hsl(66, 100%, 69%);
+    margin-left: 5%;
+    font-size: 130%;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Abel', sans-serif;
+    
+}
+p.intro {
+    border: rgb(0, 17, 255) 10px solid;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 45%;
+    padding: 20px;
+    background-color: rgb(1, 73, 156);
+  }
+  p.estilo-3 {
+    border: hsl(207, 50%, 45%) 5px dashed;
+    margin-left: 5%;
+    margin-right: 45%;
+    padding: 20px;
+    background-color: hsl(207, 100%, 25%);
+    color: white;
+  }
+  p.estilo-5 {
+    border: hsl(0, 100%, 52%) 5px solid;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 45%;
+    padding: 20px;
+    background-color: hsl(27, 100%, 25%);
+    color: white;
+  }
+ 
+em {
+    font-family: 'Abel', sans-serif;
+    color: hsl(69, 100%, 50%);
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    color: hsl(73, 100%, 50%);
+    font-weight: normal;
+}
+
+address {
+    font-family: 'Sansita Swashed', cursive;
+    background-color: rgba(1, 129, 129, 0.616);
+    margin-left: 50%;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+}

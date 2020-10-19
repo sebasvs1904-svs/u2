@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+}
+strong{
+    text-align: center;
+}
+
+#customers tr:nth-child(even){background-color: #ce796ee0;}
+
+#customers tr:nth-child(odd){
+    background-color: #bb9a61f3;
+}
+#customers tr:hover {
+    background-color: black;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1E4F6F;
+    text-align: center;
+    color: white;
+}
+img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #eeff00;
+    -webkit-box-shadow: 0px 0px 15px 15px #eeff00;
+    
+    }
